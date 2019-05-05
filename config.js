@@ -1,12 +1,11 @@
 var config = {
     development: {
         database: {            
-            uri: 'mongodb://<dbusername>:<dbuserpassword>@ds139435.mlab.com:39435/gamestore',
+            uri: 'mongodb://admin:grkm12345@ds139435.mlab.com:39435/gamestore',
         },
-        //server details
         server: {
             host: '127.0.0.1',
-            port: '3000'
+            port: '8080'
         },
         secret: 'ShhhSecret'
     }

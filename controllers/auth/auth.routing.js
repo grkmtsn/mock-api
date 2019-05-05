@@ -3,7 +3,7 @@ const PostAuth = require('./auth-post.action');
 module.exports = {
     '/login': {
         post: {
-            action: PostAuth.action,
+            action: PostAuth.login,
             level: 'public'
         }
     }

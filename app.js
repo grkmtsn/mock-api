@@ -26,6 +26,7 @@ app.use(morgan('combined'));
 app.use('/static', express.static(path.join(__dirname, 'public')))
 
 app.use(jwt());
+
 cors(app);
 
 //DB Connection

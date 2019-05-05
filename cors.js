@@ -1,7 +1,7 @@
 'use strict';
 module.exports = function (app) {
     const cors = require('cors');
-    const whiteList = ['http://localhost:3001', 'http://localhost:5000', 'http://localhost:8080', 'http://localhost:8081'];
+    const whiteList = ['http://localhost:3000', 'http://localhost:5000', 'http://localhost:8080', 'http://localhost:8081'];
     const corsOptions = {
         origin: function (origin, callback) {
             if (whiteList.indexOf(origin) !== -1) {

@@ -16,8 +16,9 @@ module.exports = {
     },
     '/register': {
         post: {
-            action: PostUser.action,
-            level: 'member'
+            middlewares: PostUser.middlewares,
+            action: PostUser.create,
+            level: 'public'
         },
     }
 };

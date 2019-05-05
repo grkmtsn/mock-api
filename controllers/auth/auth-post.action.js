@@ -3,7 +3,7 @@ const config = require('../../config');
 const encrypt = require('../../helpers/encrypt');
 const jwt = require('jsonwebtoken');
 
-module.exports.action = (req, res) => {
+module.exports.login = (req, res) => {
     const username = req.body.username;
     const password = req.body.password;
     const encPassword = encrypt(password);
