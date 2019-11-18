@@ -1,7 +1,7 @@
 var config = {
     development: {
         database: {            
-            uri: 'mongodb://admin:grkm12345@ds139435.mlab.com:39435/gamestore',
+            uri: 'mongodb://<dbuser>:<dbpass>@ds139435.mlab.com:39435/gamestore',
         },
         server: {
             host: '127.0.0.1',
